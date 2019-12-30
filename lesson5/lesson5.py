@@ -52,3 +52,5 @@ lst = ['baveja@att.net', 'mhassel@comcast.net', 'heine@sbcglobal.net', 'gbacon@c
        'miltchev@verizon.net', 'ducasse@hotmail.com', 'chaikin@yahoo.ca', 'agolomsh@yahoo.ca', 'joehall@msn.com', 'ilikered@optonline.net']
 print(func(lst))
 # написать еще через регулярное выражение
+
+# 3
