@@ -29,9 +29,9 @@
 # print(sum)    
 
 
-# 4
-# a = [i for i in range(1001) if i % 7 == 0]
-# print(a)
+
+a = [i for i in range(1001) if i % 7 == 0]
+print(a)
 
 # 5
 # sum = 0

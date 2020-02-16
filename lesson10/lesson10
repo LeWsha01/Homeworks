@@ -1,0 +1,67 @@
+import sqlalchemy
+import random
+from sqlalchemy import create_engine
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy import Column, Integer, String, ForeignKey, Date
+from sqlalchemy.orm import relationship, Session, sessionmaker
+
+db = create_engine('postgresql://postgres:Vlad2010@localhost:5432/testdb')
+base = declarative_base()
+
+
+class Agents(base):
+    __tablename__ = "agents"
+
+    Agents_Code = Column(String(6), primary_key=True, nullable=False)
+    Agents_Name = Column(String(40))
+    Working_Area = Column(String(35))
+    Commission = Column(Integer)
+    Phone_no = Column(String(15))
+    Country = Column(String(25))
+
+    def __init__(self, Agent_Code, Agent_Name, Working_Area, Commission, Phone_no, Country):
+        self.Agents_Code = Agent_Code
+        self.Agents_Name = Agent_Name
+        self.Working_Area = Working_Area
+        self.Commission = Commission
+        self.Phone_no = Phone_no
+        self.Country = Country
+
+
+class Customer(base):
+    __tablename__ = 'Customer'
+
+    Cust_Code = Column(String(6), primary_key=True)
+    Cust_Name = Column(String(40))
+    Cust_City = Column(String(35), nullable=True)
+    Working_Area = Column(String(35))
+    Cust_Country = Column(String(20))
+    Grade = Column(Integer, nullable=True)
+    Opening_Amt = Column(Integer)
+    Receive_Amt = Column(Integer)
+    Payment_Amt = Column(Integer)
+    Outstanding_Amt = Column(Integer)
+    Phone_No = Column(String(17))
+    Agents_Code = Column(String(6), ForeignKey(Agents.Agents_Code))
+
+
+class Orders(base):
+    __tablename__ = 'Orders'
+
+    Ord_Num = Column(Integer, primary_key=True)
+    Ord_Amount = Column(String)
+    Advance_Amount = Column(String)
+    Ord_date = Column(Date)
+    Cust_Code = Column(String(6), ForeignKey(Customer.Cust_Code))
+    Agents_Code = Column(String(6), ForeignKey(Agents.Agents_Code))
+    Ord_Description = (String(60))
+
+
+base.metadata.create_all(db)
+
+Session = sessionmaker(db)
+
+session = Session()
+
+
+session.commit()

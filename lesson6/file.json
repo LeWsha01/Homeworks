@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Alex",
+        "age": 20,
+        "is_student": true
+    },
+    {
+        "name": "John",
+        "age": 22,
+        "country": "Belarus"
+    }
+]
+
