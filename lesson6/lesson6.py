@@ -69,20 +69,20 @@ def excel_change(file):
 
     wb = openpyxl.load_workbook(filename=file)
 
-    sheet = wb.worksheets[0]  # Save the worksheet with which we will work in a variable
+    sheet = wb.worksheets[0]  
 
-    col = sheet.max_column  # Get maximum columns
-    row = sheet.max_row  # Get maximum rows
+    col = sheet.max_column  
+    row = sheet.max_row  
 
     sheet.insert_cols(1)
 
-    for j in range(1, row + 1):  # Here we merge two columns
+    for j in range(1, row + 1):  
         sheet['B{}'.format(j)].value = str(sheet.cell(j, 2).value) + ' ' + str(sheet.cell(j, 3).value)
         sheet.merge_cells('B{}:C{}'.format(j, j))
 
     lists_marks = []
 
-    for i in range(1, row + 1):  # In this cycle we consider the average mark
+    for i in range(1, row + 1):  
         count = 0
         list = []
         for j in range(4, col + 1):
