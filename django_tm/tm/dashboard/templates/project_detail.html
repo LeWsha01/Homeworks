@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% block content %}
+    <div>
+        <p>Name: {{ object.name }}</p>
+        <p>Description: {{ object.description }}</p>
+        <p>Created at: {{ object.created_at }}</p>
+        {% for issue in issues %}
+            {{ issue.name }}
+        {% endfor %}
+    </div>
+    <a href='{% url 'projects-list' %}'>back to projects list</a> |
+    <a href='{% url 'projects-update' object.id %}'>update project</a> |
+    <a href='{% url 'projects-delete' object.id %}'>delete project</a>
+{% endblock content %}>

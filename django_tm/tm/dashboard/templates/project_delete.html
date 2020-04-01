@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+{% block content %}
+<form method="post">{% csrf_token %}
+    <div>
+        <input type="submit" value='Yes, I’m sure'>
+        <a href="{% url 'projects-detail' object.id %}"
+           class="button cancel-link">No, take me back</a>
+    </div>
+</form>
+{% endblock content %}

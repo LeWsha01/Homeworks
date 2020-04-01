@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+{% load dashboard_tags %}
+{% block content %}
+    <div>
+        <div>
+            <h1>Total projects: {{ count }} on It is {% now "jS F Y H:i" %}</h1>
+            <a href="{% url 'projects-create' %}">New +</a>
+            <p><a href="{% url 'issues-list' %}">Issues</a></p>
+        </div>
+        <div>
+            <div>
+                <h4>Project list:</h4>
+            </div>
+            {% for obj in object_list %}
+                <div>
+
+                    {{ obj.name }} |
+                    {{ obj.name|upper|cut:"O" }}
+                    <a href='{{ obj.get_absolute_url }}'>link</a>
+                </div>
+            {% endfor %}
+        </div>
+        {% include 'pagination.html' %}
+    </div>
+
+
+{% endblock content %}

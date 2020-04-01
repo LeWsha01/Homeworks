@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% block content %}
+    <div>
+        <p>Name: {{ object.name }}</p>
+        <p>Description: {{ object.description }}</p>
+        <p>Created at: {{ object.created_at }}</p>
+        <p>Deadline: {{ object.deadline }}</p>
+        <p>assigne:{{ object.assigne }}</p>
+        <p>reported:{{ object.reported }}</p>
+        <p>Project:{{ object.project.name }}</p>
+    </div>
+    <a href='{% url 'issues-list' %}'>back to issues list</a> |
+    <a href='{% url 'issue-update' object.id %}'>update issue</a> |
+    <a href='{% url 'issue-delete' object.id %}'>delete issue</a>
+{% endblock%}

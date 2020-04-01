@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f077db2e-c5c7-4c69-b8c4-80c9be79950f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="django_tm@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="django_tm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="django_tm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="django_tm: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="django_tm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="django_tm: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="django_tm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="django_tm: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="django_tm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="django_tm: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" module-name="django_tm" is-module-sdk="true">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+    <option name="myUseModuleSdk" value="true" />
+    <option name="myModuleName" value="django_tm" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1YqaBAww0FhvgeNA2ejPbCgBnrD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="django_tm" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="django_tm" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tm/dashboard/migrations" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.issue_list.html">
+    <configuration name="issue_list.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/django_tm/dashboard/templates/issue_list.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="django_tm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tm/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="django_tm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tm/dashboard" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tm/dashboard/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
+      <module name="django_tm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="tm.tm.settings" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.issue_list.html" />
+        <item itemvalue="Python.manage" />
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f077db2e-c5c7-4c69-b8c4-80c9be79950f" name="Default Changelist" comment="" />
+      <created>1583672439790</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583672439790</updated>
+      <workItem from="1583672441523" duration="4043000" />
+      <workItem from="1583752877404" duration="7925000" />
+      <workItem from="1583770035140" duration="5074000" />
+      <workItem from="1583872665011" duration="1017000" />
+      <workItem from="1584123084338" duration="3111000" />
+      <workItem from="1584208918912" duration="7134000" />
+      <workItem from="1584270324101" duration="15581000" />
+      <workItem from="1584383590764" duration="1633000" />
+      <workItem from="1584476421238" duration="2401000" />
+      <workItem from="1584615853526" duration="4854000" />
+      <workItem from="1584892913499" duration="6182000" />
+      <workItem from="1584994265800" duration="11542000" />
+      <workItem from="1585481922757" duration="21842000" />
+      <workItem from="1585691674423" duration="2038000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="215" width="931" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583780302957">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="215" width="931" height="721" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1583780302957" />
+    <state x="643" y="284" width="624" height="532" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583873047517">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="643" y="284" width="624" height="532" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1583873047517" />
+    <state x="742" y="297" width="424" height="505" key="FileChooserDialogImpl" timestamp="1583780298458">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="742" y="297" width="424" height="505" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1583780298458" />
+    <state width="1876" height="346" key="GridCell.Tab.0.bottom" timestamp="1584305701297">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1876" height="346" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1584305701297" />
+    <state width="1876" height="346" key="GridCell.Tab.0.center" timestamp="1584305701294">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1876" height="346" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1584305701294" />
+    <state width="1876" height="346" key="GridCell.Tab.0.left" timestamp="1584305701293">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1876" height="346" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1584305701293" />
+    <state width="1876" height="346" key="GridCell.Tab.0.right" timestamp="1584305701296">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1876" height="346" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1584305701296" />
+    <state width="1876" height="346" key="GridCell.Tab.1.bottom" timestamp="1584305701302">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1876" height="346" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1584305701302" />
+    <state width="1876" height="346" key="GridCell.Tab.1.center" timestamp="1584305701300">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1876" height="346" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1584305701300" />
+    <state width="1876" height="346" key="GridCell.Tab.1.left" timestamp="1584305701298">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1876" height="346" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1584305701298" />
+    <state width="1876" height="346" key="GridCell.Tab.1.right" timestamp="1584305701301">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1876" height="346" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1584305701301" />
+    <state x="456" y="188" key="SettingsEditor" timestamp="1585581930457">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="456" y="188" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1585581930457" />
+    <state width="664" height="445" key="SwitcherDM" timestamp="1583778446738">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="664" height="445" key="SwitcherDM/0.27.1920.1053@0.27.1920.1053" timestamp="1583778446738" />
+    <state x="693" y="361" width="524" height="378" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1585492983577">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="693" y="361" width="524" height="378" key="com.intellij.database.dbimport.ImportUtil.MyDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1585492983577" />
+    <state x="672" y="143" width="874" height="815" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1584212106490">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="672" y="143" width="874" height="815" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1584212106490" />
+    <state x="630" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1585691682798">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="630" y="381" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1585691682798" />
+    <state x="495" y="231" width="920" height="639" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584212305041">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="495" y="231" width="920" height="639" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1584212305041" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1585085013836">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1585085013836" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/django_tm$views.coverage" NAME="views Coverage Results" MODIFIED="1584124479102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tm/dashboard" />
+    <SUITE FILE_PATH="coverage/django_tm$manage.coverage" NAME="manage Coverage Results" MODIFIED="1584293969218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tm" />
+  </component>
+</project>

@@ -1,0 +1,34 @@
+
+{% block content %}
+    <form action='' method='POST'>
+        {{ form.hidden_tag() }} <!-- crsf -->
+        <div class='form-group'>
+            {{ form.first_currency.label() }}
+            {% if form.first_currency.errors %}
+                {{ form.name(class="form-contol is-invalid") }}
+                <div class='invalid-feedback'>
+                    {% for error in form.first_currency.errors %}
+                        <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+            {% else %}
+                {{ form.first_currency(class="form-contol") }}
+            {% endif %}
+        </div>
+            <div class='form-group'>
+                {{ form.number.label() }}
+                {{ form.number(class="form-contol") }}
+            </div>
+            <div class='form-group'>
+                {{ form.second_currency.label() }}
+                {{ form.second_currency(class="form-contol") }}
+            </div>
+            <div class='form-group'>
+                {{ form.submit(class="btn btn-outline-info") }}
+            </div>
+            <p>{{ a }}</p>
+        <div>
+            <p><a href='/'> to menu</a></p>
+        </div>
+    </form>
+{% endblock content %}
